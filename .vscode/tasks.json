@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Dev Server",
+			"type": "shell",
+			"command": "cd apps/web && set DATABASE_URL=file:C:/Users/PC01/Desktop/task/packages/db/prisma/dev.db && npx next dev -p 3000",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "Dev Server",
+			"type": "shell",
+			"command": "Set-Location apps/web; $env:DATABASE_URL='file:C:/Users/PC01/Desktop/task/packages/db/prisma/dev.db'; npx next dev -p 3000",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "none"
+		}
+	]
+}
