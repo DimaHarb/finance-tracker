@@ -2,6 +2,11 @@
 
 A full-stack personal finance web application built with Next.js, Prisma, SQLite, and Tailwind CSS. Track your income and expenses, view dashboards with charts, and manage transaction categories.
 
+This is a demo video presenting my task:
+
+https://github.com/user-attachments/assets/8f37567c-638e-47b6-8d2d-0b223c42c90c
+
+
 ## 🏗 Architecture Overview
 
 This project is a **Turborepo monorepo** with the following structure:
